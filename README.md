@@ -1,18 +1,18 @@
 # Burhan Arshad — AI & Machine Learning Portfolio
 
-Personal portfolio website of **Burhan Arshad**, a Computer Science student and aspiring **AI/ML Engineer** focused on building practical intelligent systems across Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, and software development.
+Personal portfolio website of **Burhan Arshad**, a Computer Science student and aspiring **AI/ML Engineer** focused on building practical intelligent systems across Machine Learning, Deep Learning, NLP, Computer Vision, and Generative AI.
 
-The portfolio highlights selected projects, technical skills, services, development experience, and ongoing learning in AI and software engineering.
+The portfolio highlights selected machine learning and AI projects, technical skills, services, and ongoing learning in AI engineering, alongside select full-stack and eCommerce development work.
 
 ## Live Website
 
-**Portfolio:** https://cypherai.tech
+**Portfolio:** https://burhan.cypherai.tech
 
 ---
 
 ## About
 
-I am a Computer Science student at the **University of Central Punjab** and an aspiring AI/ML Engineer interested in turning ideas into practical software and intelligent systems.
+I am a Computer Science student at the **University of Central Punjab** and an aspiring AI/ML Engineer focused on turning ideas into practical, deployed intelligent systems.
 
 My main areas of interest include:
 
@@ -20,18 +20,52 @@ My main areas of interest include:
 * Deep Learning
 * Natural Language Processing
 * Computer Vision
-* Generative AI
+* Generative AI & Retrieval-Augmented Generation
 * Agentic AI
 * AI-powered applications
-* Software Development
 
-Alongside AI/ML, I work with databases, backend development, eCommerce platforms, and Unity game development.
+Alongside AI/ML, I work with backend development, databases, eCommerce platforms, and Unity game development.
 
-I enjoy building projects from the ground up — from data processing and model development to backend APIs, user interfaces, deployment, and real-world integration.
+I enjoy building projects end-to-end — from data processing and model development, to backend APIs, evaluation, deployment, and real-world integration.
 
 ---
 
 ## Tech Stack
+
+### AI & Machine Learning
+
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* TensorFlow / Keras
+* OpenCV
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+### Generative AI & NLP
+
+* LangChain
+* ChromaDB (Vector Databases)
+* Sentence-Transformers (Embeddings)
+* Hugging Face
+* Groq (LLM Inference)
+* TF-IDF / NLP Pipelines
+* Retrieval-Augmented Generation (RAG)
+* Agentic AI
+
+### Backend, APIs & Deployment
+
+* FastAPI
+* Uvicorn
+* Streamlit
+* PostgreSQL
+* Supabase
+* SQL
+* REST APIs
+* WebSockets / Realtime Systems
+* Vercel, Render
 
 ### Frontend
 
@@ -45,29 +79,6 @@ I enjoy building projects from the ground up — from data processing and model 
 
 * GSAP
 * Framer Motion
-
-### AI & Machine Learning
-
-* Python
-* NumPy
-* Pandas
-* Scikit-learn
-* TensorFlow / Keras
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-* NLP
-* Generative AI
-* Agentic AI
-
-### Backend & Databases
-
-* FastAPI
-* PostgreSQL
-* Supabase
-* SQL
-* REST APIs
-* WebSockets / Realtime Systems
 
 ### Development Tools
 
@@ -86,42 +97,7 @@ I enjoy building projects from the ground up — from data processing and model 
 
 ---
 
-# Featured Projects
-
-## Cloud-Based Multi-Tenant SaaS Inventory System
-
-A cloud-based multi-tenant inventory management platform designed for SaaS environments.
-
-The system focuses on tenant isolation, inventory management, relational database architecture, authentication, and real-time data synchronization.
-
-**Technologies:** PostgreSQL, Supabase, SQL, Database Management Systems, Realtime/WebSockets
-
-* **Live Demo:** https://inventory-saas-eight.vercel.app/
-* **GitHub:** https://github.com/burhan-arshad24/inventory-saas
-
----
-
-## Multiplayer Stealth-Comedy Game
-
-A multiplayer stealth-comedy burglary game developed with Unity.
-
-The project focuses on networked gameplay, player interaction, environmental systems, cooperative mechanics, enemy AI behavior, and multiplayer synchronization.
-
-**Technologies:** Unity, C#, Netcode for GameObjects, ParrelSync, Blender
-
-* **GitHub:** https://github.com/burhan-arshad24/Unity-Multiplayer-Burglary-Game
-
----
-
-## Debug or Die
-
-A horror game project developed with Unity, focusing on atmosphere, environmental interaction, gameplay systems, pacing, and interactive storytelling.
-
-**Technologies:** Unity, C#, Blender
-
-* **GitHub:** https://github.com/burhan-arshad24/debug-or-die
-
----
+# Featured ML / AI Projects
 
 ## Real-Time ASL Sign Language Recognition
 
@@ -142,7 +118,7 @@ The system uses a custom CNN trained on **87,000 images across 29 classes** and 
 
 An end-to-end autonomous driving system inspired by NVIDIA's PilotNet architecture.
 
-The model maps camera frames directly to steering angles and incorporates data augmentation, steering-distribution balancing, and simulator-based control.
+The model maps camera frames directly to steering angles and incorporates multi-camera training, data augmentation, steering-distribution balancing, and real-time simulator control.
 
 **Technologies:** Python, TensorFlow/Keras, CNN, Computer Vision, Behavioral Cloning
 
@@ -154,12 +130,12 @@ The model maps camera frames directly to steering angles and incorporates data a
 
 A Retrieval-Augmented Generation application that allows users to upload PDF or TXT documents and ask questions about their contents.
 
-Documents are chunked and embedded locally, stored in ChromaDB, retrieved using MMR, and passed to an LLM for response generation. Retrieved source chunks are also displayed for better traceability.
+Documents are chunked and embedded locally, stored in ChromaDB, retrieved using MMR, and passed to a Groq-hosted LLM for response generation. Retrieved source chunks are also displayed for better traceability.
 
-**Technologies:** Python, RAG, LLMs, ChromaDB, Embeddings, Streamlit
+**Technologies:** Python, LangChain, ChromaDB, Sentence-Transformers, Groq, Streamlit
 
 * **Live Demo:** https://rag-document-summarizer-burhan.streamlit.app/
-* **GitHub:** https://github.com/burhan-arshad24/rag-document-summarizer
+* **GitHub:** https://github.com/burhan-arshad/rag-document-summarizer
 
 ---
 
@@ -167,12 +143,12 @@ Documents are chunked and embedded locally, stored in ChromaDB, retrieved using 
 
 A content-based movie recommendation engine using **TF-IDF and cosine similarity**.
 
-The system includes a FastAPI backend and Streamlit frontend, with TMDB integration for movie search, posters, ratings, and additional recommendation information.
+The system includes a dedicated FastAPI backend and a Streamlit frontend, with live TMDB integration for movie search, posters, ratings, and genre-based recommendations.
 
 **Technologies:** Python, Scikit-learn, TF-IDF, Cosine Similarity, FastAPI, Streamlit, TMDB API
 
 * **Live Demo:** https://movie-recommendation-system-burhan.streamlit.app/
-* **GitHub:** https://github.com/burhan-arshad24/movie-recommendation-system
+* **GitHub:** https://github.com/burhan-arshad/movie-recommendation-system
 
 ---
 
@@ -187,40 +163,20 @@ The model was evaluated with particular attention to pneumonia-class recall, ref
 **Pneumonia Recall:** 94%
 
 * **Live Demo:** https://pneumonia-detection-burhan.streamlit.app/
-* **GitHub:** https://github.com/burhan-arshad24/pneumonia-detection-on-x-rays
+* **GitHub:** https://github.com/burhan-arshad/pneumonia-detection-on-x-rays
 
 ---
 
-## SMS Spam Classifier
+## BTC Directional Signal — LSTM with Backtested Evaluation
 
-An NLP-based machine learning application that classifies SMS messages as **Spam** or **Ham**.
+A time-series deep learning project predicting short-term Bitcoin price direction from 100,000 hourly candles and 15 engineered technical indicators.
 
-The project includes text preprocessing, TF-IDF feature extraction, model optimization using GridSearchCV, and real-time predictions through a Streamlit interface.
+Rather than relying on classification accuracy, the model is evaluated through out-of-sample backtesting — transaction costs, Sharpe ratio, maximum drawdown, and win rate.
 
-**Technologies:** Python, Scikit-learn, TF-IDF, LinearSVC, GridSearchCV, Streamlit
+**Technologies:** Python, TensorFlow/Keras, LSTM, Pandas, Streamlit
 
-**Performance:**
-
-* Approximately 99% accuracy
-
-* Approximately 97% macro F1-score
-
-* **Live Demo:** https://nlp-spam-detection-burhan.streamlit.app/
-
-* **GitHub:** https://github.com/burhan-arshad24/nlp-spam-detection
-
----
-
-## Bike Demand Prediction
-
-A machine learning regression project designed to predict bike rental demand using environmental and temporal features.
-
-The project includes datetime feature extraction, exploratory data analysis, model comparison, Random Forest optimization using GridSearchCV, and a Streamlit interface.
-
-**Technologies:** Python, Pandas, Scikit-learn, Random Forest, GridSearchCV, Streamlit
-
-* **Live Demo:** https://bike-demand-prediction-burhan.streamlit.app/
-* **GitHub:** https://github.com/burhan-arshad24/bike-demand-prediction
+* **Live Demo:** https://crypto-price-predictor-burhan.streamlit.app/
+* **GitHub:** https://github.com/burhan-arshad/crypto-price-predictor
 
 ---
 
@@ -248,15 +204,62 @@ The project focuses on product presentation, collection organization, responsive
 
 ---
 
+# Additional Development Work
+
+## Cloud-Based Multi-Tenant SaaS Inventory System
+
+A cloud-based multi-tenant inventory management platform designed for SaaS environments, focused on tenant isolation, relational database architecture, authentication, and real-time data synchronization.
+
+**Technologies:** PostgreSQL, Supabase, SQL, Realtime/WebSockets
+
+* **Live Demo:** https://inventory-saas-eight.vercel.app/
+* **GitHub:** https://github.com/burhan-arshad/inventory-saas
+
+## SMS Spam Classifier
+
+An NLP machine learning application that classifies SMS messages as Spam or Ham using TF-IDF, LinearSVC, and GridSearchCV, deployed with a real-time Streamlit interface.
+
+**Performance:** ~99% accuracy · ~97% macro F1-score
+
+* **Live Demo:** https://nlp-spam-detection-burhan.streamlit.app/
+* **GitHub:** https://github.com/burhan-arshad/nlp-spam-detection
+
+## Bike Demand Prediction
+
+A machine learning regression project predicting bike rental demand using environmental and temporal features, with a tuned Random Forest model and a Streamlit interface.
+
+**Technologies:** Python, Pandas, Scikit-learn, Random Forest, GridSearchCV, Streamlit
+
+* **Live Demo:** https://bike-demand-prediction-burhan.streamlit.app/
+* **GitHub:** https://github.com/burhan-arshad/bike-demand-prediction
+
+## Multiplayer Stealth-Comedy Game
+
+A multiplayer stealth-comedy burglary game developed with Unity, focused on networked gameplay, player interaction, environmental systems, cooperative mechanics, enemy AI behavior, and multiplayer synchronization.
+
+**Technologies:** Unity, C#, Netcode for GameObjects, ParrelSync, Blender
+
+* **GitHub:** https://github.com/burhan-arshad/Unity-Multiplayer-Burglary-Game
+
+## Debug or Die
+
+A horror game project developed with Unity, focusing on atmosphere, environmental interaction, gameplay systems, pacing, and interactive storytelling.
+
+**Technologies:** Unity, C#, Blender
+
+* **GitHub:** https://github.com/burhan-arshad/debug-or-die
+
+---
+
 # Services
 
 ## Machine Learning Solutions
 
 Development of practical machine learning systems for classification, regression, prediction, and data-driven applications.
 
-## NLP Applications
+## NLP & Generative AI Applications
 
-Development of NLP solutions including text classification, spam detection, preprocessing, TF-IDF pipelines, and other text-based applications.
+Development of NLP and generative AI solutions including text classification, retrieval-augmented generation, embeddings, and LLM-integrated applications.
 
 ## AI-Powered Applications
 
@@ -326,34 +329,34 @@ Agentic AI
 Intelligent Applications
 ```
 
-At the same time, I continue developing my skills in backend development, databases, cloud-based applications, software engineering, and game development.
+At the same time, I continue developing my skills in backend development, databases, cloud-based applications, and software engineering.
 
 ---
 
 # What I Work With
 
-| Area             | Technologies                                |
-| ---------------- | ------------------------------------------- |
-| Programming      | Python, C#, JavaScript, SQL                 |
-| Machine Learning | Scikit-learn, TensorFlow, Keras             |
-| Data             | NumPy, Pandas, Matplotlib, Seaborn          |
-| NLP              | TF-IDF, Text Classification, NLP Pipelines  |
-| Computer Vision  | CNNs, Image Classification, OpenCV concepts |
-| Generative AI    | LLMs, RAG, Embeddings                       |
-| Backend          | FastAPI, REST APIs, WebSockets              |
-| Databases        | PostgreSQL, Supabase, SQL                   |
-| Frontend         | Astro, HTML, CSS, JavaScript, Tailwind      |
-| Animation        | GSAP, Framer Motion                         |
-| Game Development | Unity, C#, Blender, NGO                     |
-| Version Control  | Git, GitHub                                 |
-| Deployment       | Vercel, Streamlit, Render                   |
+| Area              | Technologies                                          |
+| ----------------- | ------------------------------------------------------ |
+| Programming       | Python, C#, JavaScript, SQL                            |
+| Machine Learning  | Scikit-learn, TensorFlow, Keras                        |
+| Data              | NumPy, Pandas, Matplotlib, Seaborn                     |
+| NLP               | TF-IDF, Text Classification, NLP Pipelines             |
+| Computer Vision   | CNNs, Image Classification, OpenCV                     |
+| Generative AI     | LangChain, ChromaDB, Sentence-Transformers, Groq, RAG  |
+| Backend           | FastAPI, Uvicorn, REST APIs, WebSockets                |
+| Databases         | PostgreSQL, Supabase, SQL                              |
+| Frontend          | Astro, HTML, CSS, JavaScript, Tailwind                 |
+| Animation         | GSAP, Framer Motion                                    |
+| Game Development  | Unity, C#, Blender, NGO                                |
+| Version Control   | Git, GitHub                                            |
+| Deployment        | Vercel, Streamlit, Render                              |
 
 ---
 
 # Connect With Me
 
-* **GitHub:** https://github.com/burhan-arshad24
-* **LinkedIn:** https://www.linkedin.com/in/burhan-arshad-816473324/
+* **GitHub:** https://github.com/burhan-arshad
+* **LinkedIn:** https://www.linkedin.com/in/burhan-arshad/
 * **Instagram:** https://www.instagram.com/https_jerry24/
 * **Upwork:** https://www.upwork.com/freelancers/~01ea7bfad0ddb63528
 * **Email:** [burhanarshad707@gmail.com](mailto:burhanarshad707@gmail.com)
