@@ -267,7 +267,7 @@ const Project = () => {
                             rel="noopener noreferrer"
                             className="border border-purple-500/40 px-5 py-3 font-mono text-xs uppercase tracking-widest text-purple-300 transition-all duration-300 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white"
                           >
-                            Visit Site ↗
+                            Visit Site 
                           </a>
                         )}
                       </div>
@@ -326,7 +326,7 @@ const Project = () => {
                             rel="noopener noreferrer"
                             className="border border-purple-500/40 px-5 py-3 font-mono text-xs uppercase tracking-widest text-purple-300 transition-all duration-300 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white"
                           >
-                            Visit Store ↗
+                            Visit Store 
                           </a>
                         )}
                       </div>
@@ -400,7 +400,7 @@ const Project = () => {
                         rel="noopener noreferrer"
                         className="border border-purple-500/40 px-5 py-3 font-mono text-xs uppercase tracking-widest text-purple-300 transition-all duration-300 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white"
                       >
-                        Live Demo ↗
+                        Live Demo 
                       </a>
                     )}
 
@@ -411,7 +411,7 @@ const Project = () => {
                         rel="noopener noreferrer"
                         className="border border-purple-500/40 px-5 py-3 font-mono text-xs uppercase tracking-widest text-purple-300 transition-all duration-300 hover:border-purple-400 hover:bg-purple-500/10 hover:text-white"
                       >
-                        Live Demo ↗
+                        Live Demo 
                       </a>
                     )}
 
@@ -422,7 +422,7 @@ const Project = () => {
                         rel="noopener noreferrer"
                         className="border border-white/10 px-5 py-3 font-mono text-xs uppercase tracking-widest text-gray-400 transition-all duration-300 hover:border-white/30 hover:text-white"
                       >
-                        GitHub ↗
+                        GitHub 
                       </a>
                     )}
 
