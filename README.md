@@ -333,43 +333,6 @@ At the same time, I continue developing my skills in backend development, databa
 
 ---
 
-# What I Work With
-
-| Area              | Technologies                                          |
-| ----------------- | ------------------------------------------------------ |
-| Programming       | Python, C#, JavaScript, SQL                            |
-| Machine Learning  | Scikit-learn, TensorFlow, Keras                        |
-| Data              | NumPy, Pandas, Matplotlib, Seaborn                     |
-| NLP               | TF-IDF, Text Classification, NLP Pipelines             |
-| Computer Vision   | CNNs, Image Classification, OpenCV                     |
-| Generative AI     | LangChain, ChromaDB, Sentence-Transformers, Groq, RAG  |
-| Backend           | FastAPI, Uvicorn, REST APIs, WebSockets                |
-| Databases         | PostgreSQL, Supabase, SQL                              |
-| Frontend          | Astro, HTML, CSS, JavaScript, Tailwind                 |
-| Animation         | GSAP, Framer Motion                                    |
-| Game Development  | Unity, C#, Blender, NGO                                |
-| Version Control   | Git, GitHub                                            |
-| Deployment        | Vercel, Streamlit, Render                              |
-
----
-
-# Connect With Me
-
-* **GitHub:** https://github.com/burhan-arshad
-* **LinkedIn:** https://www.linkedin.com/in/burhan-arshad/
-* **Instagram:** https://www.instagram.com/https_jerry24/
-* **Upwork:** https://www.upwork.com/freelancers/~01ea7bfad0ddb63528
-* **Email:** [burhanarshad707@gmail.com](mailto:burhanarshad707@gmail.com)
-* **WhatsApp:** https://wa.me/923147089020
-
----
-
-# Author
-
-**Burhan Arshad**
-
-AI & Machine Learning Developer
-Computer Science Student
 
 > Building intelligent systems, one project at a time.
 
