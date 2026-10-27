@@ -256,7 +256,7 @@ const Hero = ({ onPreloadComplete }) => {
           alt="Burhan Arshad AI & Machine Learning Developer"
           className="
             block
-            w-[150vw]
+            w-[135vw]
             max-w-none
             shrink-0
             object-contain
