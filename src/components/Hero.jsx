@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import centerImage from '../assets/hero_assets/hero_center.png';
@@ -81,8 +82,6 @@ const Hero = ({ onPreloadComplete }) => {
           tl.to(
             containerRef.current,
             {
-              // Mobile: balanced position below navbar
-              // Desktop: original position preserved
               top: isMobile ? '16%' : '45%',
               duration: 1.5,
               ease: 'power3.inOut',
@@ -166,8 +165,8 @@ const Hero = ({ onPreloadComplete }) => {
           ref={textRef}
           className="
             text-[16vw]
-            md:text-[10rem]
-            lg:text-[14rem]
+            md:text-[12rem]
+            lg:text-[16rem]
             font-black
             tracking-tighter
             text-transparent
@@ -192,10 +191,10 @@ const Hero = ({ onPreloadComplete }) => {
             absolute
             -bottom-8
             left-0
-            text-white
             text-base
-            md:text-2xl
-            lg:text-4xl
+            md:text-3xl
+            lg:text-5xl
+            text-white
             drop-shadow-[0_0_15px_rgba(139,92,246,0.3)]
             z-10
             opacity-0
@@ -235,17 +234,19 @@ const Hero = ({ onPreloadComplete }) => {
         </div>
       </div>
 
+      {/* Centered, enlarged image */}
       <div
         ref={imageRef}
         className="
-          relative
+          absolute
+          inset-x-0
+          bottom-0
           z-10
-          text-center
-          text-white
           flex
-          flex-col
-          items-center
+          justify-center
+          items-end
           w-full
+          overflow-hidden
           pointer-events-none
           translate-y-[100vh]
         "
@@ -254,9 +255,14 @@ const Hero = ({ onPreloadComplete }) => {
           src={centerImage}
           alt="Burhan Arshad AI & Machine Learning Developer"
           className="
-            w-full
-            max-w-md
+            block
+            w-[150vw]
+            max-w-none
+            shrink-0
             object-contain
+            object-bottom
+            md:w-[30vw]
+            lg:w-[45vw]
             drop-shadow-[0_20px_50px_rgba(139,92,246,0.3)]
           "
         />
