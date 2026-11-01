@@ -86,6 +86,8 @@ I enjoy building projects end-to-end — from data processing and model developm
 * GitHub
 * VS Code
 * Virtual Environments
+* Claude AI
+* Codex
 
 ### Game Development
 
