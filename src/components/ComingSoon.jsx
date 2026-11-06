@@ -2,7 +2,7 @@ import React from 'react';
 
 const ComingSoon = ({ onBack }) => {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#070711] text-white w-full overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center min-h-screen bg-[#040a06] text-white w-full overflow-hidden">
       
       {/* Background Glow */}
       <div className="absolute inset-0 pointer-events-none">
@@ -28,7 +28,7 @@ const ComingSoon = ({ onBack }) => {
 
         <button
           onClick={onBack}
-          className="cursor-pointer px-8 py-3 rounded-full border border-purple-500 text-white bg-purple-600 font-bold text-sm md:text-base hover:bg-purple-700 hover:border-purple-400 transition-colors shadow-[0_0_25px_rgba(139,92,246,0.25)]"
+          className="cursor-pointer px-8 py-3 rounded-full border border-purple-500 text-[#040a06] bg-purple-600 font-bold text-sm md:text-base hover:bg-purple-700 hover:border-purple-400 transition-colors shadow-[0_0_25px_rgba(125,255,0,0.25)]"
         >
           Go Back
         </button>

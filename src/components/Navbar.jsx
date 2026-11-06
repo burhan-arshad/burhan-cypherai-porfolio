@@ -54,7 +54,7 @@ const Navbar = () => {
             : '-translate-y-full opacity-0'
         } ${
           isMenuOpen
-            ? 'bg-[#070711]/95 backdrop-blur-md'
+            ? 'bg-[#040a06]/95 backdrop-blur-md'
             : 'bg-transparent'
         }`}
       >
@@ -117,7 +117,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-40 bg-[#070711] flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden ${
+        className={`fixed inset-0 z-40 bg-[#040a06] flex flex-col items-center justify-center transition-all duration-500 ease-in-out md:hidden ${
           isMenuOpen
             ? 'opacity-100 visible'
             : 'opacity-0 invisible'

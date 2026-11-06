@@ -249,11 +249,11 @@ const About = () => {
         gsap.fromTo(
           words,
           {
-            color: '#52525b',
+            color: '#3f5446',
             opacity: 0.2,
           },
           {
-            color: '#ffffff',
+            color: '#e8ffe9',
             opacity: 1,
             stagger: 0.06,
             scrollTrigger: {
@@ -322,7 +322,7 @@ const About = () => {
       className="
         relative
         min-h-screen
-        bg-[#070711]
+        bg-[#040a06]
         text-white
         pt-24
         pb-0
@@ -379,7 +379,7 @@ const About = () => {
             absolute
             inset-0
             opacity-[0.025]
-            bg-[linear-gradient(rgba(139,92,246,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.5)_1px,transparent_1px)]
+            bg-[linear-gradient(rgba(125,255,0,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(125,255,0,0.5)_1px,transparent_1px)]
             bg-[size:70px_70px]
           "
         />
@@ -438,7 +438,7 @@ const About = () => {
             from-white
             via-purple-300
             to-purple-900
-            drop-shadow-[0_0_40px_rgba(139,92,246,0.35)]
+            drop-shadow-[0_0_40px_rgba(125,255,0,0.35)]
             leading-none
             mb-10
           "
@@ -506,7 +506,7 @@ const About = () => {
                 className="
                   relative
                   p-3
-                  bg-[#0d1020]/90
+                  bg-[#0b1710]/90
                   backdrop-blur-2xl
                   rounded-3xl
                   border
@@ -526,13 +526,13 @@ const About = () => {
                     px-3
                     py-1.5
                     bg-purple-600
-                    text-white
+                    text-[#040a06]
                     font-mono
                     text-[9px]
                     font-bold
                     tracking-[0.18em]
                     rounded
-                    shadow-[0_0_25px_rgba(139,92,246,0.5)]
+                    shadow-[0_0_25px_rgba(125,255,0,0.5)]
                   "
                 >
                   AI / ML DEVELOPER
@@ -552,7 +552,7 @@ const About = () => {
                     max-w-full
                     object-contain
                     rounded-2xl
-                    drop-shadow-[0_20px_50px_rgba(139,92,246,0.3)]
+                    drop-shadow-[0_20px_50px_rgba(125,255,0,0.3)]
                     transition-transform
                     duration-700
                     group-hover:scale-[1.025]
@@ -571,7 +571,7 @@ const About = () => {
                     justify-between
                     px-3
                     py-2
-                    bg-[#070711]/80
+                    bg-[#040a06]/80
                     backdrop-blur-md
                     border
                     border-white/10
@@ -618,7 +618,7 @@ const About = () => {
                   from-white
                   via-purple-300
                   to-purple-900
-                  drop-shadow-[0_0_40px_rgba(139,92,246,0.35)]
+                  drop-shadow-[0_0_40px_rgba(125,255,0,0.35)]
                   leading-[0.8]
                 "
               >
@@ -635,7 +635,7 @@ const About = () => {
             <div
               className="
                 relative
-                bg-[#0d1020]/70
+                bg-[#0b1710]/70
                 backdrop-blur-2xl
                 p-6
                 md:p-9
@@ -734,252 +734,252 @@ const About = () => {
             </div>
 
             {/* Download Buttons */}
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-1">
 
-  {/* Download CV */}
-  <a
-    href="/documents/Burhan_Arshad_CV.pdf"
-    download="Burhan_Arshad_CV.pdf"
-    aria-label="Download Burhan Arshad's CV as PDF"
-    className="
-      group relative isolate
-      flex items-center gap-4
-      min-h-[108px] p-4 sm:p-5
-      overflow-hidden rounded-2xl
-      border border-purple-400/40
-      bg-gradient-to-br from-purple-600/25 via-[#0d1020] to-[#0d1020]
-      shadow-[0_0_25px_rgba(139,92,246,0.12)]
-      transition-all duration-500 ease-out
-      hover:-translate-y-1.5
-      hover:border-purple-400/80
-      hover:shadow-[0_12px_40px_rgba(139,92,246,0.25)]
-      focus-visible:outline-none
-      focus-visible:ring-2 focus-visible:ring-purple-400
-      focus-visible:ring-offset-2
-      focus-visible:ring-offset-[#070711]
-    "
-  >
-    {/* Animated background accent */}
-    <span
-      aria-hidden="true"
-      className="
-        absolute inset-y-0 left-0 w-1
-        bg-gradient-to-b from-purple-300 via-purple-500 to-fuchsia-500
-        transition-all duration-500
-        group-hover:w-full group-hover:opacity-[0.06]
-      "
-    />
+              {/* Download CV */}
+              <a
+                href="/documents/Burhan_Arshad_CV.pdf"
+                download="Burhan_Arshad_CV.pdf"
+                aria-label="Download Burhan Arshad's CV as PDF"
+                className="
+                  group relative isolate
+                  flex items-center gap-4
+                  min-h-[108px] p-4 sm:p-5
+                  overflow-hidden rounded-2xl
+                  border border-purple-400/40
+                  bg-gradient-to-br from-purple-600/25 via-[#0b1710] to-[#0b1710]
+                  shadow-[0_0_25px_rgba(125,255,0,0.12)]
+                  transition-all duration-500 ease-out
+                  hover:-translate-y-1.5
+                  hover:border-purple-400/80
+                  hover:shadow-[0_12px_40px_rgba(125,255,0,0.25)]
+                  focus-visible:outline-none
+                  focus-visible:ring-2 focus-visible:ring-purple-400
+                  focus-visible:ring-offset-2
+                  focus-visible:ring-offset-[#040a06]
+                "
+              >
+                {/* Animated background accent */}
+                <span
+                  aria-hidden="true"
+                  className="
+                    absolute inset-y-0 left-0 w-1
+                    bg-gradient-to-b from-purple-300 via-purple-500 to-fuchsia-500
+                    transition-all duration-500
+                    group-hover:w-full group-hover:opacity-[0.06]
+                  "
+                />
 
-    {/* Decorative glow */}
-    <span
-      aria-hidden="true"
-      className="
-        absolute -right-8 -top-10
-        h-28 w-28 rounded-full
-        bg-purple-500/15 blur-3xl
-        transition-all duration-700
-        group-hover:scale-150 group-hover:bg-purple-500/25
-      "
-    />
+                {/* Decorative glow */}
+                <span
+                  aria-hidden="true"
+                  className="
+                    absolute -right-8 -top-10
+                    h-28 w-28 rounded-full
+                    bg-purple-500/15 blur-3xl
+                    transition-all duration-700
+                    group-hover:scale-150 group-hover:bg-purple-500/25
+                  "
+                />
 
-    {/* Document icon */}
-    <span
-      className="
-        relative z-10 flex h-14 w-12 shrink-0
-        items-center justify-center
-        rounded-xl border border-purple-300/30
-        bg-purple-500/15 text-purple-300
-        transition-all duration-500
-        group-hover:border-purple-300/60
-        group-hover:bg-purple-500/25
-        group-hover:scale-105
-      "
-    >
-      <svg
-        className="h-7 w-7"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-        <path d="M14 2v6h6" />
-        <path d="M8 13h8" />
-        <path d="M8 17h5" />
-      </svg>
-    </span>
+                {/* Document icon */}
+                <span
+                  className="
+                    relative z-10 flex h-14 w-12 shrink-0
+                    items-center justify-center
+                    rounded-xl border border-purple-300/30
+                    bg-purple-500/15 text-purple-300
+                    transition-all duration-500
+                    group-hover:border-purple-300/60
+                    group-hover:bg-purple-500/25
+                    group-hover:scale-105
+                  "
+                >
+                  <svg
+                    className="h-7 w-7"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <path d="M14 2v6h6" />
+                    <path d="M8 13h8" />
+                    <path d="M8 17h5" />
+                  </svg>
+                </span>
 
-    {/* Button text */}
-    <span className="relative z-10 flex min-w-0 flex-1 flex-col gap-1.5">
-      <span className="font-mono text-[9px] tracking-[0.22em] text-purple-300/80">
-        DOCUMENT // 01
-      </span>
+                {/* Button text */}
+                <span className="relative z-10 flex min-w-0 flex-1 flex-col gap-1.5">
+                  <span className="font-mono text-[9px] tracking-[0.22em] text-purple-300/80">
+                    DOCUMENT // 01
+                  </span>
 
-      <span className="text-base sm:text-lg font-bold tracking-tight text-white">
-        Download CV
-      </span>
+                  <span className="text-base sm:text-lg font-bold tracking-tight text-white">
+                    Download CV
+                  </span>
 
-      <span className="text-[11px] text-gray-400 transition-colors duration-300 group-hover:text-purple-200">
-        Professional profile · PDF
-      </span>
-    </span>
+                  <span className="text-[11px] text-gray-400 transition-colors duration-300 group-hover:text-purple-200">
+                    Professional profile · PDF
+                  </span>
+                </span>
 
-    {/* Download action icon */}
-    <span
-      className="
-        relative z-10 flex h-9 w-9 shrink-0
-        items-center justify-center
-        rounded-full border border-purple-400/30
-        bg-purple-500/10 text-purple-300
-        transition-all duration-500
-        group-hover:translate-y-0.5
-        group-hover:border-purple-300/60
-        group-hover:bg-purple-500/25
-        group-hover:text-white
-      "
-    >
-      <svg
-        className="h-4 w-4 transition-transform duration-500 group-hover:translate-y-0.5"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <path d="M12 3v12" />
-        <path d="m7 10 5 5 5-5" />
-        <path d="M5 19h14" />
-      </svg>
-    </span>
-  </a>
+                {/* Download action icon */}
+                <span
+                  className="
+                    relative z-10 flex h-9 w-9 shrink-0
+                    items-center justify-center
+                    rounded-full border border-purple-400/30
+                    bg-purple-500/10 text-purple-300
+                    transition-all duration-500
+                    group-hover:translate-y-0.5
+                    group-hover:border-purple-300/60
+                    group-hover:bg-purple-500/25
+                    group-hover:text-white
+                  "
+                >
+                  <svg
+                    className="h-4 w-4 transition-transform duration-500 group-hover:translate-y-0.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 3v12" />
+                    <path d="m7 10 5 5 5-5" />
+                    <path d="M5 19h14" />
+                  </svg>
+                </span>
+              </a>
 
-  {/* Download Resume */}
-  <a
-    href="/documents/Burhan_Arshad_Resume.pdf"
-    download="Burhan_Arshad_Resume.pdf"
-    aria-label="Download Burhan Arshad's Resume as PDF"
-    className="
-      group relative isolate
-      flex items-center gap-4
-      min-h-[108px] p-4 sm:p-5
-      overflow-hidden rounded-2xl
-      border border-fuchsia-400/25
-      bg-gradient-to-br from-fuchsia-500/10 via-[#0d1020] to-[#0d1020]
-      shadow-[0_0_25px_rgba(217,70,239,0.05)]
-      transition-all duration-500 ease-out
-      hover:-translate-y-1.5
-      hover:border-fuchsia-400/60
-      hover:shadow-[0_12px_40px_rgba(217,70,239,0.16)]
-      focus-visible:outline-none
-      focus-visible:ring-2 focus-visible:ring-fuchsia-400
-      focus-visible:ring-offset-2
-      focus-visible:ring-offset-[#070711]
-    "
-  >
-    {/* Animated background accent */}
-    <span
-      aria-hidden="true"
-      className="
-        absolute inset-y-0 left-0 w-1
-        bg-gradient-to-b from-fuchsia-300 via-fuchsia-500 to-purple-500
-        transition-all duration-500
-        group-hover:w-full group-hover:opacity-[0.06]
-      "
-    />
+              {/* Download Resume */}
+              <a
+                href="/documents/Burhan_Arshad_Resume.pdf"
+                download="Burhan_Arshad_Resume.pdf"
+                aria-label="Download Burhan Arshad's Resume as PDF"
+                className="
+                  group relative isolate
+                  flex items-center gap-4
+                  min-h-[108px] p-4 sm:p-5
+                  overflow-hidden rounded-2xl
+                  border border-fuchsia-400/25
+                  bg-gradient-to-br from-fuchsia-500/10 via-[#0b1710] to-[#0b1710]
+                  shadow-[0_0_25px_rgba(0,255,160,0.05)]
+                  transition-all duration-500 ease-out
+                  hover:-translate-y-1.5
+                  hover:border-fuchsia-400/60
+                  hover:shadow-[0_12px_40px_rgba(0,255,160,0.16)]
+                  focus-visible:outline-none
+                  focus-visible:ring-2 focus-visible:ring-fuchsia-400
+                  focus-visible:ring-offset-2
+                  focus-visible:ring-offset-[#040a06]
+                "
+              >
+                {/* Animated background accent */}
+                <span
+                  aria-hidden="true"
+                  className="
+                    absolute inset-y-0 left-0 w-1
+                    bg-gradient-to-b from-fuchsia-300 via-fuchsia-500 to-purple-500
+                    transition-all duration-500
+                    group-hover:w-full group-hover:opacity-[0.06]
+                  "
+                />
 
-    {/* Decorative glow */}
-    <span
-      aria-hidden="true"
-      className="
-        absolute -right-8 -top-10
-        h-28 w-28 rounded-full
-        bg-fuchsia-500/10 blur-3xl
-        transition-all duration-700
-        group-hover:scale-150 group-hover:bg-fuchsia-500/20
-      "
-    />
+                {/* Decorative glow */}
+                <span
+                  aria-hidden="true"
+                  className="
+                    absolute -right-8 -top-10
+                    h-28 w-28 rounded-full
+                    bg-fuchsia-500/10 blur-3xl
+                    transition-all duration-700
+                    group-hover:scale-150 group-hover:bg-fuchsia-500/20
+                  "
+                />
 
-    {/* Resume icon */}
-    <span
-      className="
-        relative z-10 flex h-14 w-12 shrink-0
-        items-center justify-center
-        rounded-xl border border-fuchsia-300/25
-        bg-fuchsia-500/10 text-fuchsia-300
-        transition-all duration-500
-        group-hover:border-fuchsia-300/50
-        group-hover:bg-fuchsia-500/20
-        group-hover:scale-105
-      "
-    >
-      <svg
-        className="h-7 w-7"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <rect x="4" y="3" width="16" height="18" rx="2" />
-        <circle cx="12" cy="9" r="2.5" />
-        <path d="M8 16c.8-1.5 2.1-2.2 4-2.2s3.2.7 4 2.2" />
-      </svg>
-    </span>
+                {/* Resume icon */}
+                <span
+                  className="
+                    relative z-10 flex h-14 w-12 shrink-0
+                    items-center justify-center
+                    rounded-xl border border-fuchsia-300/25
+                    bg-fuchsia-500/10 text-fuchsia-300
+                    transition-all duration-500
+                    group-hover:border-fuchsia-300/50
+                    group-hover:bg-fuchsia-500/20
+                    group-hover:scale-105
+                  "
+                >
+                  <svg
+                    className="h-7 w-7"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.6"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect x="4" y="3" width="16" height="18" rx="2" />
+                    <circle cx="12" cy="9" r="2.5" />
+                    <path d="M8 16c.8-1.5 2.1-2.2 4-2.2s3.2.7 4 2.2" />
+                  </svg>
+                </span>
 
-    {/* Button text */}
-    <span className="relative z-10 flex min-w-0 flex-1 flex-col gap-1.5">
-      <span className="font-mono text-[9px] tracking-[0.22em] text-fuchsia-300/80">
-        DOCUMENT // 02
-      </span>
+                {/* Button text */}
+                <span className="relative z-10 flex min-w-0 flex-1 flex-col gap-1.5">
+                  <span className="font-mono text-[9px] tracking-[0.22em] text-fuchsia-300/80">
+                    DOCUMENT // 02
+                  </span>
 
-      <span className="text-base sm:text-lg font-bold tracking-tight text-white">
-        Download Resume
-      </span>
+                  <span className="text-base sm:text-lg font-bold tracking-tight text-white">
+                    Download Resume
+                  </span>
 
-      <span className="text-[11px] text-gray-400 transition-colors duration-300 group-hover:text-fuchsia-200">
-        Experience overview · PDF
-      </span>
-    </span>
+                  <span className="text-[11px] text-gray-400 transition-colors duration-300 group-hover:text-fuchsia-200">
+                    Experience overview · PDF
+                  </span>
+                </span>
 
-    {/* Download action icon */}
-    <span
-      className="
-        relative z-10 flex h-9 w-9 shrink-0
-        items-center justify-center
-        rounded-full border border-fuchsia-400/25
-        bg-fuchsia-500/10 text-fuchsia-300
-        transition-all duration-500
-        group-hover:translate-y-0.5
-        group-hover:border-fuchsia-300/50
-        group-hover:bg-fuchsia-500/20
-        group-hover:text-white
-      "
-    >
-      <svg
-        className="h-4 w-4 transition-transform duration-500 group-hover:translate-y-0.5"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <path d="M12 3v12" />
-        <path d="m7 10 5 5 5-5" />
-        <path d="M5 19h14" />
-      </svg>
-    </span>
-  </a>
+                {/* Download action icon */}
+                <span
+                  className="
+                    relative z-10 flex h-9 w-9 shrink-0
+                    items-center justify-center
+                    rounded-full border border-fuchsia-400/25
+                    bg-fuchsia-500/10 text-fuchsia-300
+                    transition-all duration-500
+                    group-hover:translate-y-0.5
+                    group-hover:border-fuchsia-300/50
+                    group-hover:bg-fuchsia-500/20
+                    group-hover:text-white
+                  "
+                >
+                  <svg
+                    className="h-4 w-4 transition-transform duration-500 group-hover:translate-y-0.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 3v12" />
+                    <path d="m7 10 5 5 5-5" />
+                    <path d="M5 19h14" />
+                  </svg>
+                </span>
+              </a>
 
-</div>
+            </div>
 
           </div>
         </div>
@@ -1006,7 +1006,7 @@ const About = () => {
                 group
                 relative
                 p-5
-                bg-[#0b0b18]/80
+                bg-[#07100a]/80
                 backdrop-blur-xl
                 border
                 border-white/10
@@ -1059,13 +1059,13 @@ const About = () => {
         </div>
 
         {/* Learning Path */}
-        <div className="mt-5 p-5 md:p-6 bg-[#0b0b18]/70 border border-purple-500/10 rounded-xl">
+        <div className="mt-5 p-5 md:p-6 bg-[#07100a]/70 border border-purple-500/10 rounded-xl">
 
           <div className="flex flex-col md:flex-row md:items-center gap-5">
 
             <div className="flex items-center gap-3 shrink-0">
 
-              <span className="w-2 h-2 rounded-full bg-pink-500 shadow-[0_0_12px_rgba(236,72,153,0.8)]" />
+              <span className="w-2 h-2 rounded-full bg-pink-500 shadow-[0_0_12px_rgba(0,255,160,0.8)]" />
 
               <span className="font-mono text-[9px] tracking-[0.25em] text-white/40 uppercase">
                 Current Learning Path
@@ -1134,7 +1134,7 @@ const About = () => {
           flex-col
           border-t
           border-purple-500/10
-          bg-[#0b0b18]/90
+          bg-[#07100a]/90
           backdrop-blur-xl
           py-4
           mt-16
