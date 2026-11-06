@@ -249,11 +249,11 @@ const About = () => {
         gsap.fromTo(
           words,
           {
-            color: '#3f5446',
+            color: '#3d5560',
             opacity: 0.2,
           },
           {
-            color: '#e8ffe9',
+            color: '#eef6f9',
             opacity: 1,
             stagger: 0.06,
             scrollTrigger: {
@@ -322,7 +322,7 @@ const About = () => {
       className="
         relative
         min-h-screen
-        bg-[#040a06]
+        bg-[#06121a]
         text-white
         pt-24
         pb-0
@@ -343,7 +343,7 @@ const About = () => {
             w-[450px]
             h-[450px]
             rounded-full
-            bg-purple-600/10
+            bg-violet-600/10
             blur-[140px]
           "
         />
@@ -379,7 +379,7 @@ const About = () => {
             absolute
             inset-0
             opacity-[0.025]
-            bg-[linear-gradient(rgba(125,255,0,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(125,255,0,0.5)_1px,transparent_1px)]
+            bg-[linear-gradient(rgba(58,169,196,0.5)_1px,transparent_1px),linear-gradient(90deg,rgba(58,169,196,0.5)_1px,transparent_1px)]
             bg-[size:70px_70px]
           "
         />
@@ -393,7 +393,7 @@ const About = () => {
 
           <div className="flex items-center gap-3">
 
-            <span className="w-2 h-2 rounded-full bg-purple-500 animate-ping" />
+            
 
             <span className="font-mono text-[10px] md:text-xs tracking-[0.3em] text-purple-400 uppercase">
               SYS.01 // ABOUT
@@ -438,7 +438,7 @@ const About = () => {
             from-white
             via-purple-300
             to-purple-900
-            drop-shadow-[0_0_40px_rgba(125,255,0,0.35)]
+            drop-shadow-[0_0_40px_rgba(255,107,87,0.3)]
             leading-none
             mb-10
           "
@@ -506,7 +506,7 @@ const About = () => {
                 className="
                   relative
                   p-3
-                  bg-[#0b1710]/90
+                  bg-[#0c1e29]/90
                   backdrop-blur-2xl
                   rounded-3xl
                   border
@@ -526,13 +526,13 @@ const About = () => {
                     px-3
                     py-1.5
                     bg-purple-600
-                    text-[#040a06]
+                    text-[#1f0703]
                     font-mono
                     text-[9px]
                     font-bold
                     tracking-[0.18em]
                     rounded
-                    shadow-[0_0_25px_rgba(125,255,0,0.5)]
+                    shadow-[0_0_25px_rgba(255,107,87,0.5)]
                   "
                 >
                   AI / ML DEVELOPER
@@ -552,7 +552,7 @@ const About = () => {
                     max-w-full
                     object-contain
                     rounded-2xl
-                    drop-shadow-[0_20px_50px_rgba(125,255,0,0.3)]
+                    drop-shadow-[0_20px_50px_rgba(58,169,196,0.3)]
                     transition-transform
                     duration-700
                     group-hover:scale-[1.025]
@@ -571,7 +571,7 @@ const About = () => {
                     justify-between
                     px-3
                     py-2
-                    bg-[#040a06]/80
+                    bg-[#06121a]/80
                     backdrop-blur-md
                     border
                     border-white/10
@@ -618,7 +618,7 @@ const About = () => {
                   from-white
                   via-purple-300
                   to-purple-900
-                  drop-shadow-[0_0_40px_rgba(125,255,0,0.35)]
+                  drop-shadow-[0_0_40px_rgba(255,107,87,0.3)]
                   leading-[0.8]
                 "
               >
@@ -635,7 +635,7 @@ const About = () => {
             <div
               className="
                 relative
-                bg-[#0b1710]/70
+                bg-[#0c1e29]/70
                 backdrop-blur-2xl
                 p-6
                 md:p-9
@@ -747,16 +747,16 @@ const About = () => {
                   min-h-[108px] p-4 sm:p-5
                   overflow-hidden rounded-2xl
                   border border-purple-400/40
-                  bg-gradient-to-br from-purple-600/25 via-[#0b1710] to-[#0b1710]
-                  shadow-[0_0_25px_rgba(125,255,0,0.12)]
+                  bg-gradient-to-br from-purple-600/25 via-[#0c1e29] to-[#0c1e29]
+                  shadow-[0_0_25px_rgba(255,107,87,0.12)]
                   transition-all duration-500 ease-out
                   hover:-translate-y-1.5
                   hover:border-purple-400/80
-                  hover:shadow-[0_12px_40px_rgba(125,255,0,0.25)]
+                  hover:shadow-[0_12px_40px_rgba(255,107,87,0.25)]
                   focus-visible:outline-none
                   focus-visible:ring-2 focus-visible:ring-purple-400
                   focus-visible:ring-offset-2
-                  focus-visible:ring-offset-[#040a06]
+                  focus-visible:ring-offset-[#06121a]
                 "
               >
                 {/* Animated background accent */}
@@ -869,16 +869,16 @@ const About = () => {
                   min-h-[108px] p-4 sm:p-5
                   overflow-hidden rounded-2xl
                   border border-fuchsia-400/25
-                  bg-gradient-to-br from-fuchsia-500/10 via-[#0b1710] to-[#0b1710]
-                  shadow-[0_0_25px_rgba(0,255,160,0.05)]
+                  bg-gradient-to-br from-fuchsia-500/10 via-[#0c1e29] to-[#0c1e29]
+                  shadow-[0_0_25px_rgba(58,169,196,0.06)]
                   transition-all duration-500 ease-out
                   hover:-translate-y-1.5
                   hover:border-fuchsia-400/60
-                  hover:shadow-[0_12px_40px_rgba(0,255,160,0.16)]
+                  hover:shadow-[0_12px_40px_rgba(58,169,196,0.18)]
                   focus-visible:outline-none
                   focus-visible:ring-2 focus-visible:ring-fuchsia-400
                   focus-visible:ring-offset-2
-                  focus-visible:ring-offset-[#040a06]
+                  focus-visible:ring-offset-[#06121a]
                 "
               >
                 {/* Animated background accent */}
@@ -1006,7 +1006,7 @@ const About = () => {
                 group
                 relative
                 p-5
-                bg-[#07100a]/80
+                bg-[#091821]/80
                 backdrop-blur-xl
                 border
                 border-white/10
@@ -1059,13 +1059,13 @@ const About = () => {
         </div>
 
         {/* Learning Path */}
-        <div className="mt-5 p-5 md:p-6 bg-[#07100a]/70 border border-purple-500/10 rounded-xl">
+        <div className="mt-5 p-5 md:p-6 bg-[#091821]/70 border border-purple-500/10 rounded-xl">
 
           <div className="flex flex-col md:flex-row md:items-center gap-5">
 
             <div className="flex items-center gap-3 shrink-0">
 
-              <span className="w-2 h-2 rounded-full bg-pink-500 shadow-[0_0_12px_rgba(0,255,160,0.8)]" />
+              <span className="w-2 h-2 rounded-full bg-pink-500 shadow-[0_0_12px_rgba(255,154,133,0.8)]" />
 
               <span className="font-mono text-[9px] tracking-[0.25em] text-white/40 uppercase">
                 Current Learning Path
@@ -1134,7 +1134,7 @@ const About = () => {
           flex-col
           border-t
           border-purple-500/10
-          bg-[#07100a]/90
+          bg-[#091821]/90
           backdrop-blur-xl
           py-4
           mt-16

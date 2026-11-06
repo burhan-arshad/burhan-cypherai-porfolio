@@ -197,7 +197,7 @@ const Project = () => {
   return (
     <section
       id="projects"
-      className="relative bg-[#040a06] px-6 py-24 sm:px-10 lg:px-16"
+      className="relative bg-[#06121a] px-6 py-24 sm:px-10 lg:px-16"
     >
       <div className="mx-auto max-w-7xl">
 
@@ -224,7 +224,7 @@ const Project = () => {
               return (
                 <div
                   key={project.name}
-                  className="group relative overflow-hidden border border-purple-500/20 bg-[#07100a] shadow-[0_0_60px_rgba(125,255,0,0.06)]"
+                  className="group relative overflow-hidden border border-purple-500/20 bg-[#091821] shadow-[0_0_60px_rgba(58,169,196,0.08)]"
                 >
                   <div className="grid lg:grid-cols-2">
 
@@ -232,10 +232,10 @@ const Project = () => {
                       <img
                         src={project.image}
                         alt={project.name}
-                        className="h-full min-h-[300px] w-full object-contain bg-[#07100a] p-4 sm:p-6 transition-transform duration-700 group-hover:scale-[1.02]"
+                        className="h-full min-h-[300px] w-full object-contain bg-[#091821] p-4 sm:p-6 transition-transform duration-700 group-hover:scale-[1.02]"
                       />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#040a06]/40 via-transparent to-transparent pointer-events-none" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#06121a]/40 via-transparent to-transparent pointer-events-none" />
                     </div>
 
                     <div className="flex flex-col justify-center p-8 sm:p-10 lg:p-14">
@@ -283,7 +283,7 @@ const Project = () => {
               return (
                 <div
                   key={project.name}
-                  className="group relative overflow-hidden border border-purple-500/20 bg-[#07100a] shadow-[0_0_60px_rgba(125,255,0,0.06)]"
+                  className="group relative overflow-hidden border border-purple-500/20 bg-[#091821] shadow-[0_0_60px_rgba(58,169,196,0.08)]"
                 >
                   <div className="grid lg:grid-cols-2">
 
@@ -291,10 +291,10 @@ const Project = () => {
                       <img
                         src={project.image}
                         alt={project.name}
-                        className="h-full min-h-[300px] w-full object-contain bg-[#07100a] p-4 sm:p-6 transition-transform duration-700 group-hover:scale-[1.02]"
+                        className="h-full min-h-[300px] w-full object-contain bg-[#091821] p-4 sm:p-6 transition-transform duration-700 group-hover:scale-[1.02]"
                       />
 
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#040a06]/40 via-transparent to-transparent pointer-events-none" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-[#06121a]/40 via-transparent to-transparent pointer-events-none" />
                     </div>
 
                     <div className="flex flex-col justify-center p-8 sm:p-10 lg:p-14 lg:order-1">
@@ -350,7 +350,7 @@ const Project = () => {
                     index % 2 === 0 ? 'lg:order-1' : 'lg:order-2'
                   }`}
                 >
-                  <div className="relative aspect-[16/10] overflow-hidden rounded-sm border border-purple-500/20 bg-[#07100a] shadow-[0_0_40px_rgba(125,255,0,0.08)]">
+                  <div className="relative aspect-[16/10] overflow-hidden rounded-sm border border-purple-500/20 bg-[#091821] shadow-[0_0_40px_rgba(58,169,196,0.1)]">
 
                     <img
                       src={project.image}
@@ -358,7 +358,7 @@ const Project = () => {
                       className="h-full w-full object-contain p-2 sm:p-3 md:p-4 transition-transform duration-700 group-hover:scale-[1.02]"
                     />
 
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#040a06]/30 via-transparent to-transparent pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#06121a]/30 via-transparent to-transparent pointer-events-none" />
 
                     <div className="absolute inset-0 border border-purple-400/0 transition-colors duration-500 group-hover:border-purple-400/30 pointer-events-none" />
 

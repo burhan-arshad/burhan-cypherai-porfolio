@@ -3,83 +3,83 @@
 @import "tailwindcss";
 
 /*
-  Palette override: Radioactive.
-  purple  -> toxic green (main accent, #7dff00)
-  violet  -> deep reactor green (glows, depth)
-  fuchsia -> mint (second accent, #00ffa0)
-  pink    -> mint (second accent, #00ffa0)
+  Palette override: Ocean and coral.
+  purple  -> coral (main accent, #ff6b57)
+  violet  -> ocean teal (ambient glows, overlays)
+  fuchsia -> light aqua (second accent)
+  pink    -> soft peach (small warm details)
   Existing class names in your JSX keep working and now render in this palette.
 */
 @theme {
-  /* purple -> toxic green */
-  --color-purple-50: #f4ffe0;
-  --color-purple-100: #e4ffb8;
-  --color-purple-200: #cfff85;
-  --color-purple-300: #b6ff52;
-  --color-purple-400: #9dff1f;
-  --color-purple-500: #7dff00;
-  --color-purple-600: #6be600;
-  --color-purple-700: #55b300;
-  --color-purple-800: #357000;
-  --color-purple-900: #183800;
-  --color-purple-950: #0b1c00;
+  /* purple -> coral */
+  --color-purple-50: #fff4f1;
+  --color-purple-100: #ffe4de;
+  --color-purple-200: #ffd1c7;
+  --color-purple-300: #ffb5a6;
+  --color-purple-400: #ff8f7c;
+  --color-purple-500: #ff6b57;
+  --color-purple-600: #f2523d;
+  --color-purple-700: #c93f2c;
+  --color-purple-800: #a3382a;
+  --color-purple-900: #7a2a1e;
+  --color-purple-950: #3d140f;
 
-  /* violet -> deep reactor green */
-  --color-violet-50: #f0ffe8;
-  --color-violet-100: #d9ffc2;
-  --color-violet-200: #b8ff8f;
-  --color-violet-300: #8fe85c;
-  --color-violet-400: #5fd02a;
-  --color-violet-500: #3fb80f;
-  --color-violet-600: #35a000;
-  --color-violet-700: #297d00;
-  --color-violet-800: #1d5a00;
-  --color-violet-900: #123a00;
-  --color-violet-950: #091e00;
+  /* violet -> ocean teal */
+  --color-violet-50: #eefafd;
+  --color-violet-100: #d3f0f6;
+  --color-violet-200: #a7dfec;
+  --color-violet-300: #72c7dc;
+  --color-violet-400: #3aa9c4;
+  --color-violet-500: #1f8aa6;
+  --color-violet-600: #17708a;
+  --color-violet-700: #135a70;
+  --color-violet-800: #0f4557;
+  --color-violet-900: #0b2f3c;
+  --color-violet-950: #071e28;
 
-  /* fuchsia -> mint */
-  --color-fuchsia-50: #e6fff5;
-  --color-fuchsia-100: #b8ffe3;
-  --color-fuchsia-200: #85ffd0;
-  --color-fuchsia-300: #52ffbd;
-  --color-fuchsia-400: #1fffaa;
-  --color-fuchsia-500: #00ffa0;
-  --color-fuchsia-600: #00d985;
-  --color-fuchsia-700: #00a867;
-  --color-fuchsia-800: #007a4a;
-  --color-fuchsia-900: #004a2d;
-  --color-fuchsia-950: #00281a;
+  /* fuchsia -> light aqua */
+  --color-fuchsia-50: #effcfe;
+  --color-fuchsia-100: #d5f6fb;
+  --color-fuchsia-200: #aaecf6;
+  --color-fuchsia-300: #7fdcec;
+  --color-fuchsia-400: #52c9e0;
+  --color-fuchsia-500: #2fb0c9;
+  --color-fuchsia-600: #1d93ac;
+  --color-fuchsia-700: #167589;
+  --color-fuchsia-800: #115c6c;
+  --color-fuchsia-900: #0c4350;
+  --color-fuchsia-950: #082b34;
 
-  /* pink -> mint */
-  --color-pink-50: #e6fff5;
-  --color-pink-100: #b8ffe3;
-  --color-pink-200: #85ffd0;
-  --color-pink-300: #52ffbd;
-  --color-pink-400: #1fffaa;
-  --color-pink-500: #00ffa0;
-  --color-pink-600: #00d985;
-  --color-pink-700: #00a867;
-  --color-pink-800: #007a4a;
-  --color-pink-900: #004a2d;
-  --color-pink-950: #00281a;
+  /* pink -> soft peach */
+  --color-pink-50: #fff7f4;
+  --color-pink-100: #ffece6;
+  --color-pink-200: #ffd9cf;
+  --color-pink-300: #ffd1c7;
+  --color-pink-400: #ffb4a3;
+  --color-pink-500: #ff9a85;
+  --color-pink-600: #e87a64;
+  --color-pink-700: #b85a47;
+  --color-pink-800: #8a4234;
+  --color-pink-900: #5e2c23;
+  --color-pink-950: #331611;
 }
 
 :root {
-  --bg-primary: #040a06;
-  --bg-secondary: #07100a;
-  --surface: #0b1710;
-  --surface-hover: #12231a;
+  --bg-primary: #06121a;
+  --bg-secondary: #091821;
+  --surface: #0c1e29;
+  --surface-hover: #12293a;
 
-  --accent-primary: #7dff00;
-  --accent-secondary: #00ffa0;
+  --accent-primary: #ff6b57;
+  --accent-secondary: #3aa9c4;
 
-  --text-primary: #e8ffe9;
-  --text-secondary: #9ab8a2;
-  --text-muted: #78a085;
+  --text-primary: #eef6f9;
+  --text-secondary: #9bb3bd;
+  --text-muted: #86a0ab;
 
-  --border: rgba(125, 255, 0, 0.2);
-  --purple-glow: rgba(125, 255, 0, 0.3);
-  --pink-glow: rgba(0, 255, 160, 0.25);
+  --border: rgba(255, 107, 87, 0.2);
+  --purple-glow: rgba(255, 107, 87, 0.3);
+  --pink-glow: rgba(58, 169, 196, 0.25);
 }
 
 html,
@@ -123,7 +123,7 @@ pre,
 
 ::selection {
   background: var(--accent-primary);
-  color: #040a06;
+  color: #1f0703;
 }
 
 /* Marquee */
@@ -209,7 +209,7 @@ pre,
 .purple-glow {
   box-shadow:
     0 0 20px var(--purple-glow),
-    0 0 60px rgba(125, 255, 0, 0.1);
+    0 0 60px rgba(255, 107, 87, 0.1);
 }
 
 /* Secondary Glow (class name kept so your JSX still works) */
@@ -217,36 +217,36 @@ pre,
 .pink-glow {
   box-shadow:
     0 0 20px var(--pink-glow),
-    0 0 60px rgba(0, 255, 160, 0.1);
+    0 0 60px rgba(58, 169, 196, 0.1);
 }
 
 /*
-  Text on toxic green: white text is unreadable on bright green, so any
-  element with a solid green background (the "AI / ML DEVELOPER" tag,
+  Text on solid coral: white text is hard to read on coral, so any
+  element with a solid coral background (the "AI / ML DEVELOPER" tag,
   Send Message and Go Back buttons) uses near-black text.
 */
 [class~="bg-purple-600"],
 [class~="bg-purple-500"] {
-  color: #040a06 !important;
+  color: #1f0703 !important;
 }
 
 /*
   Safety net: if any old dark-blue hardcoded backgrounds remain in other
-  files (bg-[#070711] etc.), these turn them green-black without edits.
+  files (bg-[#070711] etc.), these turn them teal-black without edits.
 */
 [class*="bg-[#070711]"] {
-  background-color: #040a06 !important;
+  background-color: #06121a !important;
 }
 
 [class*="bg-[#0b0b18]"],
 [class*="bg-[#0d1020]"],
 [class*="bg-[#101021]"],
 [class*="bg-[#15152a]"] {
-  background-color: rgba(11, 23, 16, 0.88) !important;
+  background-color: rgba(12, 30, 41, 0.88) !important;
 }
 
 [class*="bg-[#070711]/"] {
-  background-color: rgba(4, 10, 6, 0.82) !important;
+  background-color: rgba(6, 18, 26, 0.82) !important;
 }
 
 /* Reduced Motion */

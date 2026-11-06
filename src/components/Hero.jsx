@@ -136,10 +136,10 @@ const Hero = ({ onPreloadComplete }) => {
       className="relative min-h-screen flex items-end justify-center bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{
         background:
-          'radial-gradient(circle at center, #0f2415 0%, #07100a 45%, #020503 100%)',
+          'radial-gradient(circle at center, #0f2a38 0%, #08161f 45%, #040d13 100%)',
       }}
     >
-      <div className="absolute inset-0 bg-[#020503]/40 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 bg-[#040d13]/40 backdrop-blur-[2px]" />
 
       <div
         ref={containerRef}
@@ -174,7 +174,7 @@ const Hero = ({ onPreloadComplete }) => {
             from-white
             via-purple-200
             to-purple-700
-            drop-shadow-[0_0_35px_rgba(125,255,0,0.35)]
+            drop-shadow-[0_0_35px_rgba(255,107,87,0.3)]
             pr-4
             md:pr-8
             leading-none
@@ -194,7 +194,7 @@ const Hero = ({ onPreloadComplete }) => {
             md:text-3xl
             lg:text-5xl
             text-white
-            drop-shadow-[0_0_15px_rgba(125,255,0,0.3)]
+            drop-shadow-[0_0_15px_rgba(58,169,196,0.3)]
             z-10
             opacity-0
             w-max
@@ -256,13 +256,13 @@ const Hero = ({ onPreloadComplete }) => {
           className="
             block
             w-[135vw]
-            max-w-
+            max-w-none
             shrink-0
             object-contain
             object-bottom
             md:w-[30vw]
             lg:w-[45vw]
-            drop-shadow-[0_20px_50px_rgba(125,255,0,0.3)]
+            drop-shadow-[0_20px_50px_rgba(58,169,196,0.3)]
           "
         />
       </div>

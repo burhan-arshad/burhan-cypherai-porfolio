@@ -2,7 +2,7 @@ import footerBg from '../assets/Footer/Footer.png';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#040a06] text-white py-12 px-6 md:px-16 h-screen flex flex-col justify-between overflow-hidden">
+    <footer className="relative bg-[#06121a] text-white py-12 px-6 md:px-16 h-screen flex flex-col justify-between overflow-hidden">
 
       {/* Background Image */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
@@ -12,11 +12,11 @@ const Footer = () => {
           style={{ backgroundImage: `url(${footerBg})` }}
         />
 
-        {/* Dark Green Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#040a06] via-[#040a06]/75 to-[#040a06]/20"></div>
+        {/* Dark Teal Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#06121a] via-[#06121a]/75 to-[#06121a]/20"></div>
 
-        {/* Green / Mint Atmosphere */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-purple-950/30 via-transparent to-pink-950/20"></div>
+        {/* Teal / Aqua Atmosphere */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-violet-950/30 via-transparent to-fuchsia-950/20"></div>
 
       </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
 
             <a
               href="#contact"
-              className="bg-purple-500 text-[#040a06] px-6 py-3 rounded-full text-sm font-medium hover:bg-purple-600 transition-colors shadow-[0_0_25px_rgba(125,255,0,0.25)]"
+              className="bg-purple-500 text-[#1f0703] px-6 py-3 rounded-full text-sm font-medium hover:bg-purple-600 transition-colors shadow-[0_0_25px_rgba(255,107,87,0.25)]"
             >
               Get in touch
             </a>

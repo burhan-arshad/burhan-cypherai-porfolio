@@ -10,42 +10,42 @@ const expertiseData = [
     title: "Machine Learning Solutions",
     text: "Building practical machine learning solutions for classification, regression, prediction, and data-driven applications using modern ML techniques and evaluation workflows.",
     tag: "MACHINE LEARNING",
-    gradient: "from-[#0c1a11] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0d2330] via-[#0c1e29] to-[#07141c]"
   },
   {
     number: "02",
     title: "NLP Applications",
     text: "Developing NLP applications for text classification, sentiment analysis, spam detection, and text preprocessing using techniques such as TF-IDF and machine learning models.",
     tag: "NLP & LANGUAGE AI",
-    gradient: "from-[#0a1610] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0b1f2b] via-[#0c1e29] to-[#07141c]"
   },
   {
     number: "03",
     title: "AI-Powered Applications",
     text: "Integrating artificial intelligence and machine learning into real-world applications to create practical, intelligent, and data-driven software solutions.",
     tag: "AI & INTELLIGENCE",
-    gradient: "from-[#0e1c13] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0e2634] via-[#0c1e29] to-[#07141c]"
   },
   {
     number: "04",
     title: "Data Analysis & Visualization",
     text: "Cleaning and analyzing datasets, performing exploratory data analysis, creating visualizations, and extracting meaningful patterns to support better decisions.",
     tag: "DATA & ANALYTICS",
-    gradient: "from-[#0c1a11] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0d2330] via-[#0c1e29] to-[#07141c]"
   },
   {
     number: "05",
     title: "Custom Software Development",
     text: "Developing custom software solutions for specific business and technical requirements using modern development practices and database-driven architectures.",
     tag: "SOFTWARE DEVELOPMENT",
-    gradient: "from-[#0a1610] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0b1f2b] via-[#0c1e29] to-[#07141c]"
   },
   {
     number: "06",
     title: "eCommerce Solutions",
     text: "Building and optimizing eCommerce solutions using Shopify and WordPress for real-world brands, online businesses, and digital commerce requirements.",
     tag: "ECOMMERCE",
-    gradient: "from-[#0e1c13] via-[#0b1710] to-[#060d09]"
+    gradient: "from-[#0e2634] via-[#0c1e29] to-[#07141c]"
   }
 ];
 
@@ -118,11 +118,11 @@ const Expertise = () => {
     <section
       id="expertise"
       ref={containerRef}
-      className="relative w-full bg-[#040a06] text-white py-20 px-6 md:px-12 select-none overflow-hidden"
+      className="relative w-full bg-[#06121a] text-white py-20 px-6 md:px-12 select-none overflow-hidden"
     >
 
       {/* Ambient Glow */}
-      <div className="absolute top-1/3 left-1/4 w-[450px] h-[450px] bg-[#7dff00]/10 rounded-full blur-[140px] pointer-events-none"></div>
+      <div className="absolute top-1/3 left-1/4 w-[450px] h-[450px] bg-[#3aa9c4]/10 rounded-full blur-[140px] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto w-full space-y-12">
 
@@ -132,11 +132,11 @@ const Expertise = () => {
           <div className="space-y-3 max-w-xl">
 
             {/* Section Tab */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#0b1710]/90 backdrop-blur-xl border border-[#7dff00]/30 text-[11px] font-mono uppercase tracking-widest text-white shadow-[0_0_25px_rgba(125,255,0,0.08)]">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#0c1e29]/90 backdrop-blur-xl border border-[#ff6b57]/30 text-[11px] font-mono uppercase tracking-widest text-white shadow-[0_0_25px_rgba(255,107,87,0.08)]">
 
-              <span className="w-1.5 h-1.5 rounded-full bg-[#b6ff52] shadow-[0_0_8px_rgba(182,255,82,0.8)] animate-ping"></span>
+              
 
-              <span className="text-[#b6ff52] font-bold">
+              <span className="text-[#ffb5a6] font-bold">
                 SYS.02
               </span>
 
@@ -144,7 +144,7 @@ const Expertise = () => {
                 |
               </span>
 
-              <span className="text-[#8fa898]">
+              <span className="text-[#86a0ab]">
                 SERVICES
               </span>
 
@@ -154,7 +154,7 @@ const Expertise = () => {
 
               AI & SOFTWARE <br />
 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7dff00] via-[#b6ff52] to-[#00ffa0] drop-shadow-[0_0_25px_rgba(125,255,0,0.35)]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff6b57] via-[#ffb5a6] to-[#52c9e0] drop-shadow-[0_0_25px_rgba(255,107,87,0.3)]">
                 SERVICES.
               </span>
 
@@ -162,7 +162,7 @@ const Expertise = () => {
 
           </div>
 
-          <p className="text-[#8fa898] text-xs md:text-sm font-light leading-relaxed max-w-xs">
+          <p className="text-[#86a0ab] text-xs md:text-sm font-light leading-relaxed max-w-xs">
             Building practical AI, data, software, and eCommerce solutions focused on real-world requirements and intelligent systems.
           </p>
 
@@ -176,7 +176,7 @@ const Expertise = () => {
             <div
               key={index}
               ref={addToRefs}
-              className={`sticky w-full p-6 md:p-8 rounded-2xl bg-gradient-to-br ${item.gradient} backdrop-blur-2xl border border-white/10 shadow-[0_20px_45px_rgba(0,0,0,0.85)] flex flex-col justify-between min-h-[230px] md:min-h-[250px] transform-gpu transition-all overflow-hidden group hover:border-[#7dff00]/50`}
+              className={`sticky w-full p-6 md:p-8 rounded-2xl bg-gradient-to-br ${item.gradient} backdrop-blur-2xl border border-white/10 shadow-[0_20px_45px_rgba(0,0,0,0.85)] flex flex-col justify-between min-h-[230px] md:min-h-[250px] transform-gpu transition-all overflow-hidden group hover:border-[#ff6b57]/50`}
               style={{
                 zIndex: index + 1,
                 top: `${95 + index * 16}px`
@@ -187,17 +187,17 @@ const Expertise = () => {
               <div
                 className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"
                 style={{
-                  background: 'radial-gradient(350px circle at var(--mouse-x) var(--mouse-y), rgba(125,255,0,0.16), transparent 70%)'
+                  background: 'radial-gradient(350px circle at var(--mouse-x) var(--mouse-y), rgba(255,107,87,0.14), transparent 70%)'
                 }}
               ></div>
 
               {/* Accent Stripe */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-[2px] bg-gradient-to-r from-transparent via-[#7dff00] to-transparent z-10 shadow-[0_0_10px_rgba(125,255,0,0.35)]"></div>
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-[2px] bg-gradient-to-r from-transparent via-[#ff6b57] to-transparent z-10 shadow-[0_0_10px_rgba(255,107,87,0.35)]"></div>
 
               {/* Card Header */}
               <div className="flex items-center justify-between w-full mb-4 relative z-10">
 
-                <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#b6ff52] px-2.5 py-0.5 rounded bg-[#7dff00]/[0.08] border border-[#7dff00]/25 shadow-[inset_0_0_12px_rgba(125,255,0,0.04)]">
+                <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-[#ffb5a6] px-2.5 py-0.5 rounded bg-[#ff6b57]/[0.08] border border-[#ff6b57]/25 shadow-[inset_0_0_12px_rgba(255,107,87,0.04)]">
                   {item.tag}
                 </span>
 
@@ -212,7 +212,7 @@ const Expertise = () => {
 
                 <div className="lg:col-span-5">
 
-                  <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight leading-snug group-hover:text-[#b6ff52] transition-colors duration-300">
+                  <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight leading-snug group-hover:text-[#ffb5a6] transition-colors duration-300">
                     {item.title}
                   </h3>
 
@@ -220,7 +220,7 @@ const Expertise = () => {
 
                 <div className="lg:col-span-7">
 
-                  <p className="text-xs md:text-sm text-[#8fa898] font-light leading-relaxed">
+                  <p className="text-xs md:text-sm text-[#86a0ab] font-light leading-relaxed">
                     {item.text}
                   </p>
 
@@ -229,7 +229,7 @@ const Expertise = () => {
               </div>
 
               {/* Corner Dot */}
-              <div className="absolute bottom-4 right-4 w-1.5 h-1.5 rounded-full bg-[#7dff00] group-hover:shadow-[0_0_10px_#7dff00] z-10 transition-all"></div>
+              <div className="absolute bottom-4 right-4 w-1.5 h-1.5 rounded-full bg-[#ff6b57] group-hover:shadow-[0_0_10px_#ff6b57] z-10 transition-all"></div>
 
             </div>
 

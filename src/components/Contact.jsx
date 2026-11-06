@@ -5,7 +5,7 @@ const ContactSection = () => {
     return (
         <div
             id="contact"
-            className="relative min-h-screen text-white font-sans flex items-center overflow-hidden [clip-path:inset(0)] bg-[#040a06]"
+            className="relative min-h-screen text-white font-sans flex items-center overflow-hidden [clip-path:inset(0)] bg-[#06121a]"
         >
             <video
                 autoPlay
@@ -18,9 +18,9 @@ const ContactSection = () => {
                 <source src={contactBgVideo} type="video/mp4" />
             </video>
 
-            <div className="absolute inset-0 bg-[#040a06]/75 z-0 pointer-events-none" />
+            <div className="absolute inset-0 bg-[#06121a]/75 z-0 pointer-events-none" />
 
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-950/30 via-transparent to-pink-950/20 z-0 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-br from-violet-950/30 via-transparent to-fuchsia-950/20 z-0 pointer-events-none" />
 
             <div className="w-full max-w-7xl mx-auto px-6 md:px-16 py-12 flex flex-col lg:flex-row gap-20 lg:gap-32 relative z-10">
 
@@ -273,7 +273,7 @@ const ContactSection = () => {
                                     placeholder="Your full name"
                                     required
                                     autoComplete="name"
-                                    className="w-full bg-[#0b1710]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
+                                    className="w-full bg-[#0c1e29]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
                                 />
 
                             </div>
@@ -290,7 +290,7 @@ const ContactSection = () => {
                                     placeholder="Your email address"
                                     required
                                     autoComplete="email"
-                                    className="w-full bg-[#0b1710]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
+                                    className="w-full bg-[#0c1e29]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
                                 />
 
                             </div>
@@ -311,7 +311,7 @@ const ContactSection = () => {
                                     name="phone"
                                     placeholder="Your phone number"
                                     autoComplete="tel"
-                                    className="w-full bg-[#0b1710]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
+                                    className="w-full bg-[#0c1e29]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
                                 />
 
                             </div>
@@ -326,7 +326,7 @@ const ContactSection = () => {
                                     type="text"
                                     name="subject"
                                     placeholder="What would you like to discuss?"
-                                    className="w-full bg-[#0b1710]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
+                                    className="w-full bg-[#0c1e29]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40"
                                 />
 
                             </div>
@@ -345,7 +345,7 @@ const ContactSection = () => {
                                 placeholder="Tell me about your project, idea, or collaboration..."
                                 rows="5"
                                 required
-                                className="w-full bg-[#0b1710]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40 resize-none"
+                                className="w-full bg-[#0c1e29]/90 backdrop-blur-sm text-white text-sm rounded-lg px-4 py-3 focus:outline-none focus:ring-1 focus:ring-purple-500/60 transition-all placeholder:text-gray-600 border border-purple-500/10 focus:border-purple-500/40 resize-none"
                             />
 
                         </div>
@@ -353,7 +353,7 @@ const ContactSection = () => {
                         {/* Submit */}
                         <button
                             type="submit"
-                            className="w-full bg-purple-500 text-[#040a06] text-sm font-semibold rounded-lg py-3 hover:bg-purple-600 transition-colors mt-2 flex items-center justify-center gap-2 shadow-[0_0_25px_rgba(125,255,0,0.2)]"
+                            className="w-full bg-purple-500 text-[#1f0703] text-sm font-semibold rounded-lg py-3 hover:bg-purple-600 transition-colors mt-2 flex items-center justify-center gap-2 shadow-[0_0_25px_rgba(255,107,87,0.2)]"
                         >
                             Send Message
                         </button>
