@@ -8,6 +8,8 @@ import ContactSection from './components/Contact';
 import Footer from './components/Footer';
 import ComingSoon from './components/ComingSoon';
 import CustomCursor from './components/CustomCursor';
+import Chatbot from './components/Chatbot';
+
 
 function App() {
   const [preloaderComplete, setPreloaderComplete] = useState(false);
@@ -21,6 +23,7 @@ function App() {
     <main>
 
   <CustomCursor />
+  <Chatbot />
       <Hero onPreloadComplete={() => setPreloaderComplete(true)} />
 
       {preloaderComplete && (
