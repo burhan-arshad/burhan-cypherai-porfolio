@@ -64,7 +64,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="#project"
+                href="#projects"
                 className="hover:text-purple-300 transition-colors"
               >
                 Projects
@@ -125,7 +125,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/burhan-arshad24"
+            href="https://github.com/burhan-arshad"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-300 transition-colors"

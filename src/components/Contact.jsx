@@ -60,7 +60,7 @@ const ContactSection = () => {
                             </p>
 
                             <a
-                                href="tel:03147089020"
+                                href="tel:+923147089020"
                                 className="text-lg md:text-xl tracking-wide text-white hover:text-purple-300 transition-colors"
                             >
                                 03147089020
@@ -162,7 +162,7 @@ const ContactSection = () => {
 
                                 {/* GitHub */}
                                 <a
-                                    href="https://github.com/burhan-arshad24"
+                                    href="https://github.com/burhan-arshad"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="GitHub"
@@ -255,7 +255,7 @@ const ContactSection = () => {
                         <input
                             type="hidden"
                             name="_next"
-                            value="https://your-domain.com/#contact"
+                            value="https://burhan.cypherai.tech/#contact"
                         />
 
                         {/* Name + Email */}
